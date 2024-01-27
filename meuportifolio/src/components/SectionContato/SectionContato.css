@@ -1,0 +1,31 @@
+#contato {
+    background-color: rgb(36, 36, 36);
+    height: 25vh;
+    margin: 20px 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.iconContato {
+    display: flex;
+    gap: 20px;
+}
+
+.iconContato img:hover {
+    transform: translateY(-5px);
+}
+
+#contato h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 980px) {
+    #contato {
+        margin: 20px 25px;
+    }
+}

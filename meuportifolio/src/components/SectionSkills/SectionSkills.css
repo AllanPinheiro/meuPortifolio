@@ -1,0 +1,41 @@
+#skills {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 50vh fit-content;
+    margin: 20px 100px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#skills h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.iconSkills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+
+.iconTech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+    #skills {
+        margin: 20px 25px;
+    }
+}

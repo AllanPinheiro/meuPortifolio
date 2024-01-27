@@ -1,0 +1,45 @@
+#projetos {
+    background-color: rgb(36, 36, 36);
+    height: 50vh fit-content;
+    margin: 20px 100px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+#projetos h2 {
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 980px) {
+    #projetos {
+        margin: 20px 25px;
+    }
+}

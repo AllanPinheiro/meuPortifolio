@@ -1,0 +1,55 @@
+/* HEADER */
+
+header {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.menuMobile {
+    display: none;
+    gap: 5px;
+}
+
+.menuMobile span {
+    cursor: pointer;
+    background-color: #fff;
+    width: 40px;
+    height: 5px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 980px) {
+    nav ul {
+        display: none;
+    }
+
+    .menuMobile {
+        display: grid;
+    }
+
+    header {
+        margin: 20px 25px;
+    }
+}

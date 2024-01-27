@@ -1,0 +1,39 @@
+#sobre {
+    background-color: rgb(36, 36, 36);
+    height: 80vh fit-content;
+    margin: 20px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.textSobre {
+    border-left: rgb(27, 139, 252) solid 6px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.textSobre p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 980px) {
+    #sobre {
+        margin: 20px 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .textSobre h2 {
+        font-size: 32px;
+    }
+    .textSobre p {
+        font-size: 18px;
+    }
+}
